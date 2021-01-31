@@ -1,0 +1,21 @@
+{
+  // https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2020"],
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true
+  },
+  "include": [
+    "src"
+  ]
+}
