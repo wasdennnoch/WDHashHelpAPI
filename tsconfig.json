@@ -6,7 +6,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "lib": ["es2020"],
+    "lib": ["esnext"],
     "rootDir": "src",
     "baseUrl": ".",
     "outDir": "dist",
@@ -16,6 +16,7 @@
     "noImplicitReturns": true
   },
   "include": [
-    "src"
+    "./src/**/*",
+    "./.eslintrc.js"
   ]
 }
